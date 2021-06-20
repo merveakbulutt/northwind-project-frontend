@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { Button, Card, Image } from 'semantic-ui-react'
 import ProductService from "../services/productService";
 
+
 export default function ProductDetail() {
 
     let { name } = useParams();
@@ -34,10 +35,10 @@ export default function ProductDetail() {
                         <div className="ui two buttons">
                             <Button basic color="green">
                                 Approve
-              </Button>
+                            </Button>
                             <Button basic color="red">
                                 Decline
-              </Button>
+                            </Button>
                         </div>
                     </Card.Content>
                 </Card>
